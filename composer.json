@@ -1,0 +1,35 @@
+{
+    "name": "haibo5/payone-sdk",
+    "description": "A SDK for PAYONE payment integration.",
+    "type": "library",
+    "keywords": [
+        "payone",
+        "payment",
+        "sdk"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "haibo.ye",
+            "email": "haibo.ye@codersunlimited.com",
+            "homepage": "https://codersunlimited.com",
+            "role": "Developer"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {},
+    "require-dev": {},
+    "suggest": {},
+    "autoload": {
+        "psr-4": {
+            "Cakasim\\Payone\\Sdk\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Cakasim\\Payone\\Sdk\\Tests\\": "tests/"
+        }
+    },
+    "scripts": {},
+    "scripts-descriptions": {}
+}
